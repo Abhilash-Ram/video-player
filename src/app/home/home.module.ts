@@ -7,6 +7,7 @@ import { File } from '@ionic-native/file/ngx';
 import { Toast } from '@ionic-native/toast/ngx';
 import { VideoEditor } from '@ionic-native/video-editor/ngx';
 import { VideoPlayer } from '@ionic-native/video-player';
+import { ScreenOrientation } from '@ionic-native/screen-orientation/ngx';
 
 import { HomePage } from './home.page';
 
@@ -23,6 +24,6 @@ import { HomePage } from './home.page';
     ])
   ],
   declarations: [HomePage],
-  providers: [File, Toast, VideoEditor, VideoPlayer]
+  providers: [File, Toast, VideoEditor, VideoPlayer,ScreenOrientation]
 })
 export class HomePageModule { }
